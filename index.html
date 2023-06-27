@@ -31,8 +31,15 @@
       smoothThreshold="5"
     >
       <!-- as a child of the a-nft entity, you can define the content to show. here's a GLTF model entity -->
+      
+      
+        <a-assets>
+          <a-asset-item id="babydino" src="resources/baby_dino/scene.gltf"></a-asset-item>
+        </a-assets>
+      
+      
       <a-entity
-        gltf-model=" url(/resources/baby_dino/scene.gltf)"
+        gltf-model="#babydino"
         scale="5 5 5"
         position="56 150 0"
       >
